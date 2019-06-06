@@ -242,16 +242,13 @@ bot.on("message", (message) => {
             const args = message.content.slice(1).trim().split(/ +/g);
             let member = message.mentions.members.first();
             if (args.length==3) {
-                if (member.roles.exists('color',6524045)) {
+                /** if (member.roles.exists('color',6524045)) {*/
                     if (message.guild.roles.exists('name',args[2])) {
                         /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id).roles.find('color',6524045).name); */
-                        member.addRole(message.guild.roles.find('name',"---------[HORS-RP]----------"));
-                        member.addRole(message.guild.roles.find('name',"--------------[IDENTITE]--------------"));
+                        member.addRole(message.guild.roles.find('name',"★▬▬▬▬[IDENTITE]▬▬▬▬▬★"));
+                        member.addRole(message.guild.roles.find('name',"★▬▬▬▬[CAPACITES]▬▬▬▬▬★"));
                         member.addRole(message.guild.roles.find('name',"Burst Linker"));
-                        member.addRole(message.guild.roles.find('name',"Niveau 1"));
-                        member.addRole(message.guild.roles.find('name',"-------[COMPETENCES]-------"));
-                        member.addRole(message.guild.roles.find('name',"-----------[GAMER TAG /NOM]----------"));
-                        member.addRole(message.guild.roles.find('name',"------------------------------"));
+                        member.addRole(message.guild.roles.find('name',"★▬▬▬▬▬▬▬▬▬★"));
                         member.addRole(message.guild.roles.find('name',"Monde réel"));
                         member.addRole(message.guild.roles.find('name',args[2]));
                         let mem = "";
@@ -262,7 +259,7 @@ bot.on("message", (message) => {
                                 }
                                 message.guild.createChannel("appartement-"+mem.toLowerCase(),'text').then(
                                     chan => {
-                                        let par = message.guild.channels.find('name',"R- Ville");
+                                        let par = message.guild.channels.find('name',"[RP] - Appartements");
                                         chan.setParent(par);
                                     }
                                 );
@@ -270,13 +267,13 @@ bot.on("message", (message) => {
                         }
                         message.guild.channels.find('name','général').send("Bienvenue à "+member+" dans le monde accéléré !");
                         message.guild.channels.find('id','586223545881985064').send("```\n"+/** member.roles.find('color',6524045).name */member.displayName+" : 20 points\n```");
-                        message.guild.channels.find("name","ratio").send("```\n"+/** member.roles.find('color',6524045).name */member.displayName+"\n0-0-0\n```");
+                        /** message.guild.channels.find("name","ratio").send("```\n"+ member.roles.find('color',6524045).name member.displayName+"\n0-0-0\n```");*/
                     } else {
                         message.channel.send("Couleur inexistante. Vérifiez la majuscule.");
                     }
-                } else {
+                /** } else {
                     message.channel.send("Vous avez oublié de mettre le rôle Prénom Nom.");
-                }
+                }*/
             } else if (args.length==2){
                 message.channel.send("Il faut dire une couleur.");
             } else {

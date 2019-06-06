@@ -5,7 +5,7 @@ bot.on('ready', () => {
     console.log('Bot is ready !');
     bot.user.setActivity("Accel World");
     bot.user.setAvatar("img.png");
-    var interval = setInterval (function () {
+    /**var interval = setInterval (function () {
         let date = new Date();
         let m = date.getMinutes()
         let s = date.getSeconds();
@@ -28,26 +28,26 @@ bot.on('ready', () => {
                     bot.channels.find('name',"centre-de-la-zone").send("**[Une mutation de zone ! \n L'endroit se vide complètement et devient une simple plaine sans aucun arbre, juste de l'herbe à perte de vue, cependant la gravité ici est extrêmement élevée, les mouvements sont difficiles et les avatars lents perdent 50 Pv par minutes]**")
                     break;
             }
-            bot.guilds.find('name',"[AW]- New Generation").members.forEach(member => {
+            bot.guilds.find('name',"Accel World [RP] ~ New Generation").members.forEach(member => {
                 if (member.roles.exists('name',"Burst Linker") && !member.roles.exists('color',11342935)) {
-                    bot.guilds.find('name',"[AW]- New Generation").channels.find('name',"plaintes-problèmes").send(bot.guilds.find('name',"[AW]- New Generation").roles.find('name',"Admin")+"\n"+member+" n'a pas de rôle de monde.");
+                    bot.guilds.find('name',"Accel World [RP] ~ New Generation").channels.find('name',"plaintes-problèmes").send(bot.guilds.find('name',"Accel World [RP] ~ New Generation").roles.find('name',"Admin")+"\n"+member+" n'a pas de rôle de monde.");
                 }
             });
         }
-    }, 1 * 1000);
+    }, 1 * 1000); */
 });
 
 bot.on("guildMemberAdd", member => {
-    bot.guilds.find('name',"[AW]- New Generation").channels.find('name',"général").send("Bienvenue à "+member+" dans le Brain Burst.");
+    bot.guilds.find('name',"Accel World [RP] ~ New Generation").channels.find('name',"général").send("Bienvenue à "+member+" dans le Brain Burst.");
 });
 
 bot.on("guildMemberRemove", member => {
-    bot.guilds.find('name',"[AW]- New Generation").channels.find('name',"général").send(member+" a perdu tous ses Points Burst. Adieu "+member);
+    bot.guilds.find('name',"Accel World [RP] ~ New Generation").channels.find('name',"général").send(member+" a perdu tous ses Points Burst. Adieu "+member);
 });
 
 bot.on("guildMemberAvailable", member => {
-    let mess = bot.guilds.find('name',"[AW]- New Generation").channels.find('name',"dernières-connections").send("L");
-    bot.guilds.find('name',"[AW]- New Generation").channels.find('name',"général").send(member.displayName+" : "+mess.createdAt);
+    let mess = bot.guilds.find('name',"Accel World [RP] ~ New Generation").channels.find('name',"dernières-connections").send("L");
+    bot.guilds.find('name',"Accel World [RP] ~ New Generation").channels.find('name',"général").send(member.displayName+" : "+mess.createdAt);
     mess.delete();
 });
 

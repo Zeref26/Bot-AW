@@ -153,7 +153,7 @@ bot.on("message", (message) => {
                 bot.channels.get("586223545881985064").fetchMessages({limit:99}).then(messages => {
                     messages.forEach((msg)=> {
                         let mes = "";
-                        if (msg.content.includes("```\n"+message.guild.members.find('id',message.author.id)/** .roles.find('color',6524045).name */)) {
+                        if (msg.content.includes("```\n"+message.guild.members.find('id',message.author.id).displayName/** .roles.find('color',6524045).name */)) {
                             let m = ""+msg.content;
                             let l = m.length-4;
                             for (let i = 4; i<l; i++) {

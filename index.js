@@ -775,6 +775,14 @@ bot.on("message", (message) => {
             message.channel.send("Veuillez entrer un montant positif.");
         }
     }
+    if (message.content.startsWith("-color")) {
+        message.delete();
+        if (message.mentions.roles.length>0) {
+            message.channel.send(message.mentions.roles.first().color);
+        } else {
+            message.author.send("Veuillez mentionner un rôle.");
+        }
+    }
 });
 
 bot.login(process.env.TOKEN);

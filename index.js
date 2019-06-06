@@ -777,8 +777,7 @@ bot.on("message", (message) => {
     }
     if (message.content.startsWith("-color")) {
         message.delete();
-        message.channel.send(message.mentions.roles.length);
-        if (message.mentions.roles.length<=0) {
+        if (message.mentions.roles.size<=0) {
             message.channel.send(message.mentions.roles.first().color);
         } else {
             message.author.send("Veuillez mentionner un rôle.");

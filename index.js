@@ -114,29 +114,29 @@ bot.on("message", (message) => {
             if (message.guild.members.find('id',message.author.id).roles.exists('name',"Monde accéléré")) {
                 message.guild.members.find('id',message.author.id).addRole(message.guild.roles.find('name',"Monde réel"));
                 message.guild.members.find('id',message.author.id).removeRole(message.guild.roles.find('name',"Monde accéléré"));
-                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id)/** .roles.find('color',6524045).name */); */
+                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id) .roles.find('color',6524045).name ); */
                 message.guild.members.find('id',message.author.id).addRole(message.guild.roles.find('name',"Monde réel"));
                 message.guild.members.find('id',message.author.id).removeRole(message.guild.roles.find('name',"Monde accéléré"));
-                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id)/** .roles.find('color',6524045).name */); */
+                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id) .roles.find('color',6524045).name ); */
                 message.guild.members.find('id',message.author.id).addRole(message.guild.roles.find('name',"Monde réel"));
                 message.guild.members.find('id',message.author.id).removeRole(message.guild.roles.find('name',"Monde accéléré"));
-                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id)/** .roles.find('color',6524045).name */); */
+                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id) .roles.find('color',6524045).name ); */
                 message.guild.members.find('id',message.author.id).addRole(message.guild.roles.find('name',"Monde réel"));
                 message.guild.members.find('id',message.author.id).removeRole(message.guild.roles.find('name',"Monde accéléré"));
-                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id)/** .roles.find('color',6524045).name */); */
+                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id) .roles.find('color',6524045).name ); */
             } else  if (message.guild.members.find('id',message.author.id).roles.exists('name',"Zone neutre") && message.channel.name == "point-de-sortie") {
                 message.guild.members.find('id',message.author.id).addRole(message.guild.roles.find('name',"Monde réel"));
                 message.guild.members.find('id',message.author.id).removeRole(message.guild.roles.find('name',"Zone neutre"));
-                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id)/** .roles.find('color',6524045).name */); */
+                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id) .roles.find('color',6524045).name ); */
                 message.guild.members.find('id',message.author.id).addRole(message.guild.roles.find('name',"Monde réel"));
                 message.guild.members.find('id',message.author.id).removeRole(message.guild.roles.find('name',"Zone neutre"));
-                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id)/** .roles.find('color',6524045).name */); */
+                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id) .roles.find('color',6524045).name ); */
                 message.guild.members.find('id',message.author.id).addRole(message.guild.roles.find('name',"Monde réel"));
                 message.guild.members.find('id',message.author.id).removeRole(message.guild.roles.find('name',"Monde accéléré"));
-                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id)/** .roles.find('color',6524045).name */); */
+                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id) .roles.find('color',6524045).name ); */
                 message.guild.members.find('id',message.author.id).addRole(message.guild.roles.find('name',"Monde réel"));
                 message.guild.members.find('id',message.author.id).removeRole(message.guild.roles.find('name',"Monde accéléré"));
-                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id)/** .roles.find('color',6524045).name */); */
+                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id) .roles.find('color',6524045).name ); */
             } else {
                 message.delete();
             }
@@ -222,16 +222,16 @@ bot.on("message", (message) => {
         if (message.guild.members.find('id',message.author.id).roles.exists('name',"Admin") || message.guild.members.find('id',message.author.id).roles.exists('name',"VrChat")) {
             message.guild.members.find('id',message.author.id).addRole(message.guild.roles.find('name',"Monde réel"));
             message.guild.members.find('id',message.author.id).removeRole(message.guild.roles.find('name',"VrChat"));
-            /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id)/** .roles.find('color',6524045).name */); */
+            /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id) .roles.find('color',6524045).name ); */
             message.guild.members.find('id',message.author.id).addRole(message.guild.roles.find('name',"Monde réel"));
             message.guild.members.find('id',message.author.id).removeRole(message.guild.roles.find('name',"VrChat"));
-            /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id)/** .roles.find('color',6524045).name */); */
+            /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id) .roles.find('color',6524045).name ); */
             message.guild.members.find('id',message.author.id).addRole(message.guild.roles.find('name',"Monde réel"));
             message.guild.members.find('id',message.author.id).removeRole(message.guild.roles.find('name',"VrChat"));
-            /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id)/** .roles.find('color',6524045).name */); */
+            /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id) .roles.find('color',6524045).name ); */
             message.guild.members.find('id',message.author.id).addRole(message.guild.roles.find('name',"Monde réel"));
             message.guild.members.find('id',message.author.id).removeRole(message.guild.roles.find('name',"VrChat"));
-            /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id)/** .roles.find('color',6524045).name */); */
+            /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id) .roles.find('color',6524045).name ); */
         } else {
             message.delete();
         }
@@ -244,7 +244,7 @@ bot.on("message", (message) => {
             if (args.length==3) {
                 /** if (member.roles.exists('color',6524045)) {*/
                     if (message.guild.roles.exists('name',args[2])) {
-                        /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id)/** .roles.find('color',6524045).name */); */
+                        /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id) .roles.find('color',6524045).name ); */
                         member.addRole(message.guild.roles.find('name',"★▬▬▬▬[IDENTITE]▬▬▬▬▬★"));
                         member.addRole(message.guild.roles.find('name',"★▬▬▬▬[CAPACITES]▬▬▬▬▬★"));
                         member.addRole(message.guild.roles.find('name',"Burst Linker"));
@@ -266,8 +266,8 @@ bot.on("message", (message) => {
                             }
                         }
                         message.guild.channels.find('name','général').send("Bienvenue à "+member+" dans le monde accéléré !");
-                        message.guild.channels.find('id','586223545881985064').send("```\n"+/** member/** .roles.find('color',6524045).name */ */member.displayName+" : 20 points\n```");
-                        /** message.guild.channels.find("name","ratio").send("```\n"+ member/** .roles.find('color',6524045).name */ member.displayName+"\n0-0-0\n```");*/
+                        message.guild.channels.find('id','586223545881985064').send("```\n"+/** member .roles.find('color',6524045).name */member.displayName+" : 20 points\n```");
+                        /** message.guild.channels.find("name","ratio").send("```\n"+ member .roles.find('color',6524045).name  member.displayName+"\n0-0-0\n```");*/
                     } else {
                         message.channel.send("Couleur inexistante. Vérifiez la majuscule.");
                     }
@@ -291,7 +291,7 @@ bot.on("message", (message) => {
                     messages.forEach((msg)=> { 
                         let pts = "";
                         let mes = "";
-                        if (msg.content.includes("```\n"+/** member/** .roles.find('color',6524045).name */ */member.displayName)) {
+                        if (msg.content.includes("```\n"+/** member .roles.find('color',6524045).name */member.displayName)) {
                             let m = ""+msg.content;
                             for (let i = 4; i<m.length-4; i++) {
                                 mes += m.charAt(i);
@@ -314,7 +314,7 @@ bot.on("message", (message) => {
                 bot.channels.get("586223545881985064").fetchMessages({limit:99}).then(messages => {
                     messages.forEach((msg)=> {
                         let mes = "";
-                        if (msg.content.includes("```\n"+/** member/** .roles.find('color',6524045).name */ */member.displayName)) {
+                        if (msg.content.includes("```\n"+/** member .roles.find('color',6524045).name */member.displayName)) {
                             let m = ""+msg.content;
                             let l = m.length-4;
                             for (let i = 4; i<l; i++) {
@@ -324,7 +324,7 @@ bot.on("message", (message) => {
                                     }
                                 }
                             }
-                            let new_m = "```\n"+/** member/** .roles.find('color',6524045).name */ */member.displayName+" : "+(parseInt(mes)+parseInt(args[2])).toString()+" points\n```";
+                            let new_m = "```\n"+/** member .roles.find('color',6524045).name */member.displayName+" : "+(parseInt(mes)+parseInt(args[2])).toString()+" points\n```";
                             msg.edit(new_m);
                             if (parseInt(mes)+parseInt(args[2])<=10 && parseInt(mes)+parseInt(args[2])>5) {
                                 message.guild.channels.find('id',"531211899803533335").send("Attention, "+member+" a moins de 10 Points Burst.");
@@ -351,7 +351,7 @@ bot.on("message", (message) => {
                 bot.channels.get("586223545881985064").fetchMessages({limit:99}).then(messages => {
                     messages.forEach((msg)=> {
                         let mes = "";
-                        if (msg.content.includes("```\n"+/** member/** .roles.find('color',6524045).name */ */member.displayName)) {
+                        if (msg.content.includes("```\n"+/** member .roles.find('color',6524045).name */member.displayName)) {
                             let m = ""+msg.content;
                             let l = m.length-4;
                             for (let i = 4; i<l; i++) {
@@ -361,7 +361,7 @@ bot.on("message", (message) => {
                                     }
                                 }
                             }
-                            let new_m = "```\n"+/** member/** .roles.find('color',6524045).name */ */member.displayName+" : "+(parseInt(mes)-parseInt(args[2])).toString()+" points\n```";
+                            let new_m = "```\n"+/** member .roles.find('color',6524045).name */member.displayName+" : "+(parseInt(mes)-parseInt(args[2])).toString()+" points\n```";
                             msg.edit(new_m);
                             if (parseInt(mes)-parseInt(args[2])<=10 && parseInt(mes)-parseInt(args[2])>5) {
                                 message.guild.channels.find('id',"531211899803533335").send("Attention, "+member+" a moins de 10 Points Burst.");
@@ -374,7 +374,7 @@ bot.on("message", (message) => {
                                 let admin = message.guild.roles.find('name','Admin');
                                 message.guild.channels.find('id',"531211899803533335").send(admin+"\nC'est fini pour "+member+", il a perdu tous ses Points Burst ...");
                                 message.guild.channels.find('name',"général").send("C'est fini pour "+member+", il a perdu tous ses Points Burst ...");
-                                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id)/** .roles.find('color',6524045).name */); */
+                                /** message.guild.members.find('id',message.author.id).setNickname(message.guild.members.find('id',message.author.id) .roles.find('color',6524045).name); */
                                 member.removeRole(message.guild.roles.find('name',"--------------[IDENTITE]--------------"));
                                 member.removeRole(message.guild.roles.find('name',"Burst Linker"));
                                 member.removeRole(message.guild.roles.find('name',"Niveau 1"));
@@ -401,7 +401,7 @@ bot.on("message", (message) => {
             let member = message.mentions.members.first();
             const args = message.content.slice(1).trim().split(/ +/g);
             if (args.length==3)  {
-                message.guild.channels.find('id','586223545881985064').send("```\n"+/** member/** .roles.find('color',6524045).name */ */member.displayName+" : 20 points\n```");
+                message.guild.channels.find('id','586223545881985064').send("```\n"+/** member .roles.find('color',6524045).name */member.displayName+" : 20 points\n```");
             } else {
                 message.channel.send("Aucune personne mentionnée.");
             }
@@ -580,7 +580,7 @@ bot.on("message", (message) => {
                 message.guild.channels.find('id',"532120912401530891").fetchMessages({limit:99}).then(messages => {
                     messages.forEach((msg) => {
                         let mes = "";
-                        if (msg.content.includes("```\n"+/** member/** .roles.find('color',6524045).name */ */member.displayName)) {
+                        if (msg.content.includes("```\n"+/** member.roles.find('color',6524045).name */member.displayName)) {
                             let m = ""+msg.content;
                             let l = m.length-4;
                             let v = "";
@@ -602,7 +602,7 @@ bot.on("message", (message) => {
                                     
                                 }
                             }
-                            let new_m = "```\n"+/** member/** .roles.find('color',6524045).name */ */member.displayName+"\n"+(parseInt(v)+1)+"-"+e+"-"+d+"\n```";
+                            let new_m = "```\n"+/** member.roles.find('color',6524045).name */member.displayName+"\n"+(parseInt(v)+1)+"-"+e+"-"+d+"\n```";
                             msg.edit(new_m);
                             if ((parseInt(v)+1)==5) {
                                 message.guild.channels.find('id',"531211899803533335").send("Félicitations à "+member+" qui atteint le niveau 2 !");
@@ -643,7 +643,7 @@ bot.on("message", (message) => {
                 message.guild.channels.find('id',"532120912401530891").fetchMessages({limit:99}).then(messages => {
                     messages.forEach((msg) => {
                         let mes = "";
-                        if (msg.content.includes("```\n"+/** member/** .roles.find('color',6524045).name */ */member.displayName)) {
+                        if (msg.content.includes("```\n"+/** member.roles.find('color',6524045).name */member.displayName)) {
                             let m = ""+msg.content;
                             let l = m.length-4;
                             let v = "";
@@ -665,7 +665,7 @@ bot.on("message", (message) => {
                                     
                                 }
                             }
-                            let new_m = "```\n"+/** member/** .roles.find('color',6524045).name */ */member.displayName+"\n"+v+"-"+e+"-"+(parseInt(d)+1)+"\n```";
+                            let new_m = "```\n"+/** member.roles.find('color',6524045).name */member.displayName+"\n"+v+"-"+e+"-"+(parseInt(d)+1)+"\n```";
                             msg.edit(new_m);
                             message.channel.send("-prem "+member+" 5");
                         }
@@ -685,7 +685,7 @@ bot.on("message", (message) => {
                 message.guild.channels.find('id',"532120912401530891").fetchMessages({limit:99}).then(messages => {
                     messages.forEach((msg) => {
                         let mes = "";
-                        if (msg.content.includes("```\n"+/** member/** .roles.find('color',6524045).name */ */member.displayName)) {
+                        if (msg.content.includes("```\n"+/** member.roles.find('color',6524045).name */member.displayName)) {
                             let m = ""+msg.content;
                             let l = m.length-4;
                             let v = "";
@@ -707,7 +707,7 @@ bot.on("message", (message) => {
                                     
                                 }
                             }
-                            let new_m = "```\n"+/** member/** .roles.find('color',6524045).name */ */member.displayName+"\n"+v+"-"+(parseInt(e)+1)+"-"+d+"\n```";
+                            let new_m = "```\n"+/** member.roles.find('color',6524045).name */member.displayName+"\n"+v+"-"+(parseInt(e)+1)+"-"+d+"\n```";
                             msg.edit(new_m);
                         }
                     });
